@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content:space-around;
+	flex-wrap: wrap;
+	background:rgb(255, 246, 208);
+	
+}
+.card{
+	background: powderblue;
+	transition: .6s;
+	margin-bottom: 7px;
+	margin: 30px;
+}
+.card .card-body h2{
+	text-align: center;
+	font-weight: bold;
+	
+}
+.card .card-body p{
+	text-align: center;
+}
+.card .card-link{
+	text-align: center;
+}
+.card .card-link .fa-brands{
+	margin-left: 8px;
+	text-decoration: none;
+	color: black;
+	transition: .3s;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.card .card-link .fa-brands:hover{
+	color: rgb(255, 208, 0);
+}
+.card:hover{
+	box-shadow: 4px 8px 17px rgba(0,0,0,0.5);
+}
+
+
+
